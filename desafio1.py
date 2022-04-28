@@ -1,0 +1,33 @@
+nome=(input('Qual é o seu nome? '))
+print(nome,('Seja bem vindo/a'))
+print(('olá'), nome, ('Prazer em te conhecer'))
+print(nome, ('Me conte o dia em que você nasceu:'))
+dia=int(input('Dia: '))
+mes=(input('Mês: '))
+ano=int(input('Ano: '))
+s=dia+ano
+print(nome,(', você nasceu no dia'), dia, ('de'), mes, ('de'), ano, ('. Correto?'))
+print(('Se você somar o dia que você nasceu com o ano você terá:'))
+print(dia, ('+'), ano,(' que é igual a '), s)
+print('a soma vale {}'.format(s))
+
+n1=int(input('Digite um número: '))
+n2=int(input('Digite outro número: '))
+soma=n1+n2
+print('A soma vale', soma)
+print('Ou seja, a soma é {}'.format (soma))
+print('A soma entre {} e {} vale {}'.format(n1,n2,soma))
+
+n3 = str(input ('Digite um valor: '))
+n4 = float(input ('Digite outro valor: '))
+n5 = bool(input ('Digite outro valor diferente: '))
+n6 = int(input ('Digite um quarto valor: '))
+print(n3)
+print(n4)
+print(n5)
+print(n6)
+print(type (n3))
+print(type (n4))
+print(type (n5))
+print(type (n6))
+
